@@ -1,0 +1,13 @@
+[workspace]
+authors = ["pvanheusden@uwc.ac.za <pvanheusden@uwc.ac.za>"]
+channels = ["conda-forge", "bioconda"]
+name = "entero_scripts"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+bioblend = ">=1.9.0,<2"
+galaxy-parsec = ">=1.16.0,<2"
+biopython = ">=1.87,<2"
